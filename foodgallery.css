@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Nerko+One&family=Patrick+Hand&family=Poppins:wght@200&display=swap');body{
+    background-color: rgba(255, 254, 254, 0.87);
+}
+.h1{
+height: 60px;
+width: 100%;
+text-align: center;
+font-family: 'Dancing Script', cursive;
+font-size: x-large;
+
+
+}
+span{
+    color: rgb(15, 172, 119);
+}
+hr{
+    margin-top: -30px;
+    width: 60px;
+    size: 10px;
+    height: 1px;
+    background-color: black;
+    border-radius: 50px;
+}
+.parent{
+    display: flex;
+    justify-content: space-evenly;
+    height: 600px;
+    margin-top: 50px;
+}
+.s1{
+    text-align: center;
+    
+}
+
+div.s1{
+    margin: 30px;
+    background-color: #fdfafa;
+    opacity: 0.7;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 900;
+
+}
+    
+.big_pin{
+    height: 500px;
+    width: 25%;
+    background-image: url("./images/food\ background.jpg");
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    box-shadow: rgb(126, 125, 124) 10px 10px 10px;
+    border-end-start-radius: 90px;
+    border-top-right-radius: 90px;
+}
+.p1{
+    color: #000000;
+    font-size: xx-large;
+}
+.col{
+    height: 525px;
+    width: 250px;
+    /* border: black 5px solid; */
+    background-color: rgb(241, 233, 233);
+    border-end-end-radius: 50px;
+    border-top-left-radius: 50px;
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.521);
+    
+}
+img{
+    width: 100%;
+    height: 200px;
+    border-end-end-radius: 50px;
+    border-top-left-radius: 50px;   
+}
+
+.n1{
+    /* background-color: azure; */
+    height: 30px;
+    text-align: center;
+    
+}
+h2{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: 'Dancing Script', cursive;
+    font-size: xx-large;
+}
+.p2{
+    font-family: 'Lobster', cursive;
+    padding: 15px;
+    margin: 0px;
+}
+.k1{
+    border:rgba(0, 0, 0, 0.151) 4px dotted;
+    margin: 16px;
+    border-end-end-radius: 50px;
+    
+    
+}
+
+button{
+    height: 30px;
+    width: 85px;
+    margin-left: 60px;
+    margin-bottom: 10px;
+   background-color: rgb(222, 236, 28);
+   /* border-style: dotted; */
+   border-radius: 50px;
+   font-weight: bold;
+}
+button:hover{
+    background-color: green;
+    color: red;
+}
